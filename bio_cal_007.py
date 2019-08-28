@@ -2,7 +2,6 @@ def frequencies(str1, k):
     a = 0
     liste=[]
     count=[]
-
     while(k<=len(str1)):
         for i in range(a,k):
             str2=str1[a:k]
